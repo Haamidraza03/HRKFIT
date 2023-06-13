@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+.bdy{
+    font-family: 'Lato', sans-serif !important;
+    padding: 0 !important;
+    margin:0 !important;
+    overflow-x:hidden;
+    /* background-color: rgb(11, 33, 11); */
+    background-color: rgb(180, 180, 180);
+}
+
+.navbar{
+    /* background-color: rgb(7, 21, 7) !important; */
+    background-color:white!important;
+}
+
+.hero{
+    width:100vw;
+    height:90vh;
+    background-image: url('./Images/back2.jpg') !important;
+    background-size: cover;
+    text-shadow:2px 2px 2px grey;
+    box-sizing: border-box;
+}
+
+.hero2{
+    width:100vw;
+    height:85vh;
+    background-image: url('./Images/aboutback.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    text-shadow:2px 2px 2px grey;
+    box-sizing: border-box;
+}
+
+.hero3{
+    width:100vw;
+    height:85vh;
+    background-image: url('./Images/join.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    text-shadow:2px 2px 2px grey;
+    box-sizing: border-box;
+}
+
+.hero4{
+    width:100vw;
+    height:85vh;
+    background-image: url('./Images/workb.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    text-shadow:2px 2px 2px grey;
+    box-sizing: border-box;
+}
+
+.hero5{
+    width:100vw;
+    height:85vh;
+    background-image: url('./Images/classesback.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    text-shadow:2px 2px 2px grey;
+    box-sizing: border-box;
+}
+
+.me{
+    color:black !important;
+}
+
+.hero6{
+    width:100vw;
+    height:85vh;
+    background-image: url('./Images/contback.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    text-shadow:2px 2px 2px grey;
+    box-sizing: border-box;
+}
+
+.page{
+    background-color: white;
+
+}
+
+.im-1{
+    background-image: url(./Images/Content01.jpg) !important;
+    background-size: cover !important;
+    height:300px !important;
+    background-position: center !important;
+    margin-left: 20px !important;
+}
+
+.im-2{
+    background-image: url(./Images/C2.jpg) !important;
+    background-size: cover !important;
+    height:300px !important;
+    background-position: center !important;
+    margin-left: 20px !important;
+}
+
+.im-3{
+    background-image: url(./Images/C3-1.jpg) !important;
+    background-size: cover !important;
+    height:300px !important;
+    background-position: center !important;
+    margin-left: 20px !important;
+}
+
+.lbak{
+    background-image: url(./Images/About-GLY-BG.jpg) !important;
+    background-size: cover !important;
+    height:300px !important;
+    background-position: center !important;
+}
+
+li{
+    list-style-type: none !important;
+    font-size: 20px !important;
+}
+
+.wh{
+    font-weight: bolder !important;
+}
+
+#dno{
+    width:28px !important;
+    margin:0px !important;
+    margin-bottom: 8px !important;
+}
+
+.page2{
+    background-color: black;
+}
+
+h2,h5{
+    text-align: left !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+#alink{
+    color:white !important;
+}
+
+.bcg{
+    /* background-color: rgb(7, 21, 7) !important; */
+    background-color:whitesmoke !important;
+}
+
+.accordion{
+    width:90% !important;
+    /* --bs-accordion-active-bg:rgb(62, 147, 62) !important; */
+    --bs-accordion-active-bg:white !important;
+    --bs-accordion-active-color:none !important;
+    /* --bs-accordion-bg:rgb(20, 61, 20) !important; */
+    --bs-accordion-bg:white !important;
+    --bs-accordion-btn-focus-box-shadow:none !important;
+}
+
+.list-cont{
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+a:hover{
+    font-weight: bolder !important;
+}
+
+.logo:hover{
+    animation-name: logo;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+    @keyframes logo{
+        to 
+        {
+        transform: rotate(360deg);
+        }
+    }
+
+.btn:hover{
+    font-weight: bolder !important;
+    transform:scale(1.02);
+    transition: 0.4s ease-in-out;
+}
+
+.rectangle{
+    background-color: rgb(47, 46, 46);
+    border-radius: 6px !important;
+    width:40% !important;
+}
+
+.rectangle:hover{
+    transform:scale(1.0);
+    transition: 0.4s ease-in-out;
+    -webkit-box-shadow:5px 5px 20px blue !important;
+    box-shadow:5px 5px 20px blue !important;
+}
+
+.cl{
+    height:40px !important;
+}
+
+@media(max-width:425px){
+    .hero h1{
+        font-size:50px !important;
+    }
+
+    #wl{
+        margin-top:70px !important;
+    }
+
+    #hr{
+        margin-top:0px !important;
+    }
+
+    .hero p{
+        font-size:25px !important;
+        margin-top:0px !important;
+    }
+
+    .hero{
+        height:70vh !important;
+    }
+
+    .hero2{
+        height:50vh !important;
+    }
+
+    .hero2 h1{
+        font-size:60px !important;
+    }
+
+    .hero2 p{
+        font-size:30px !important;
+        margin-top:0px !important;
+    } 
+
+    .hero3{
+        height:50vh !important;
+    }
+
+    .hero3 h1{
+        font-size:60px !important;
+    }
+
+    .hero3 p{
+        font-size:30px !important;
+        margin-top:0px !important;
+    }
+
+    .hero4{
+        height:50vh !important;
+    }
+
+    .hero4 h1{
+        font-size:60px !important;
+        margin-top:100px !important;
+    }
+
+    .hero4 p{
+        font-size:30px !important;
+        margin-top:0px !important;
+    }
+
+    .hero5{
+        height:50vh !important;
+    }
+
+    .hero5 h1{
+        font-size:60px !important;
+        margin-top:0px !important;
+    }
+
+    .hero5 p{
+        font-size:20px !important;
+        margin-top:0px !important;
+    }
+
+    .hero6{
+        height:50vh !important;
+    }
+
+    .hero6 h1{
+        font-size:60px !important;
+        margin-top:0px !important;
+    }
+
+    .hero6 p{
+        font-size:20px !important;
+        margin-top:0px !important;
+    }
+
+    li{
+        text-align: center !important;
+        list-style-type:circle !important;
+    }
+
+    #dno{
+        display: none !important;
+    }
+
+    .im-1,.im-2,.im-3{
+        margin-right: 20px !important;
+        flex-shrink: none !important;
+    }
+
+    .lbak{
+        display:none !important;
+    }
+
+    .arr{
+        margin-left:20px !important;
+    }
+
+    .rectangle{
+        width:70% !important;
+    }
+
+    .ff{
+        text-align: center !important;
+    }
+}
