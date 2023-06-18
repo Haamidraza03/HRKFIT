@@ -303,6 +303,10 @@ a:hover{
         display: none !important;
     }
 
+    #dno2{
+        display: none !important;
+    }
+
     .im-1,.im-2,.im-3{
         margin-right: 20px !important;
         flex-shrink: none !important;
